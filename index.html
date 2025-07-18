@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amahle Nonyusa - Software Developer & Cybersecurity Enthusiast</title>
+    <meta name="description"
+        content="Professional portfolio of Amahle Nonyusa - Aspiring Software Developer and Cybersecurity Enthusiast">
+    <meta name="author" content="Amahle Nonyusa">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav-fixed">
+        <div class="nav-container">
+            <div class="nav-brand">Amahle Nonyusa</div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-desktop">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="nav-mobile-btn" id="mobileMenuBtn">
+                <i data-lucide="menu" class="menu-icon"></i>
+                <i data-lucide="x" class="close-icon hidden"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile hidden" id="mobileMenu">
+            <a href="#home" class="nav-mobile-link">Home</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#education" class="nav-mobile-link">Education</a>
+            <a href="#skills" class="nav-mobile-link">Skills</a>
+            <a href="#projects" class="nav-mobile-link">Projects</a>
+            <a href="#contact" class="nav-mobile-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Text Content -->
+                <div class="hero-content animate-fade-in">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Amahle <span class="text-accent">Nonyusa</span>
+                        </h1>
+                        <h2 class="hero-subtitle">
+                            Aspiring Software Developer | Cybersecurity Enthusiast
+                        </h2>
+                    </div>
+
+                    <p class="hero-description">
+                        Passionate about building secure, innovative software solutions while advancing cybersecurity
+                        practices.
+                        Currently developing expertise in software development and information security management.
+                    </p>
+
+                    <!-- Contact Links -->
+                    <div class="contact-links">
+                        <a href="mailto:nonyusaamahle@gmail.com" class="contact-link">
+                            <i data-lucide="mail"></i>
+                            <span class="contact-text">nonyusaamahle@gmail.com</span>
+                        </a>
+                        <a href="tel:+27763335258" class="contact-link">
+                            <i data-lucide="phone"></i>
+                            <span class="contact-text">+27 763 335 258</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/amahle-nonyusa-030139263?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSJ7V7113S6GKEPIFVKSwlQ%3D%3D"
+                            target="_blank" class="contact-link">
+                            <i data-lucide="linkedin"></i>
+                            <span class="contact-text">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Amahle20" target="_blank" class="contact-link">
+                            <i data-lucide="github"></i>
+                            <span class="contact-text">GitHub</span>
+                        </a>
+                    </div>
+
+                    <div class="cta-section">
+                        <button class="btn-primary" onclick="downloadCV()">
+                            <i data-lucide="download"></i>
+                            Download CV
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Profile Image -->
+                <div class="hero-image animate-scale-in">
+                    <div class="image-container">
+                        <div class="profile-image">
+                            <img src="images/AmaPic.jpg" alt="Amahle Nonyusa - Professional headshot">
+                        </div>
+                        <div class="decorative-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-description">
+                    Building expertise through hands-on experience in ICT support and data management
+                </p>
+            </div>
+
+            <div class="experience-grid">
+                <!-- ICT Support Intern -->
+                <div class="experience-card animate-slide-up">
+                    <div class="card-content">
+                        <div class="experience-header">
+                            <div class="experience-icon">
+                                <i data-lucide="shield"></i>
+                            </div>
+                            <div class="experience-info">
+                                <h3 class="experience-title">ICT Support Intern</h3>
+                                <p class="experience-company">Oprah Winfrey Leadership Academy</p>
+                                <div class="experience-meta">
+                                    <span><i data-lucide="calendar"></i> June 2024 - Present</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-details">
+                            <h4>Key Responsibility</h4>
+                            <ul class="responsibility-list">
+                                <li>Providing first-line technical support,
+                                    troubleshooting hardware/software issues, and assisting with network and system
+                                    maintenance.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Field Worker -->
+                <div class="experience-card animate-slide-up" style="animation-delay: 0.2s;">
+                    <div class="card-content">
+                        <div class="experience-header">
+                            <div class="experience-icon">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <div class="experience-info">
+                                <h3 class="experience-title">Field Worker</h3>
+                                <p class="experience-company">Statistics South Africa (Stats SA)</p>
+                                <div class="experience-meta">
+                                    <span><i data-lucide="calendar"></i>Feb 2022 - April 2022</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-details">
+                            <h4>Key Responsibility</h4>
+                            <ul class="responsibility-list">
+                                <li>Conducting on-site tasks such as data collection, client
+                                    interaction, and reporting.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Education & Certifications</h2>
+                <p class="section-description">
+                    Continuous learning through formal education and industry certifications
+                </p>
+            </div>
+
+            <!-- Academic Qualifications -->
+            <div class="education-subsection">
+                <h3 class="subsection-title">
+                    <i data-lucide="graduation-cap"></i>
+                    Academic Qualifications
+                </h3>
+
+                <div class="education-grid">
+                    <div class="education-card animate-slide-up">
+                        <div class="education-header">
+                            <div class="education-info">
+                                <h4 class="education-degree">Advanced Diploma in Information Resource Management (IT)
+                                </h4>
+                                <p class="education-institution">University of South Africa (UNISA)</p>
+                                <div class="education-meta">
+                                    <i data-lucide="calendar"></i>
+                                    March 2025 - Dec 2025
+                                </div>
+                            </div>
+                            <span class="status-badge progress">In Progress</span>
+                        </div>
+
+                        <div class="education-modules">
+                            <h5>Key Modules:</h5>
+                            <div class="modules-grid">
+                                <span><i data-lucide="book-open"></i> Development Software IV</span>
+                                <span><i data-lucide="book-open"></i> Database System IV</span>
+                                <span><i data-lucide="book-open"></i> Networks IV</span>
+                                <span><i data-lucide="book-open"></i> ICT Project Management</span>
+                                <span><i data-lucide="book-open"></i> Incident and Problem Management</span>
+                                <span><i data-lucide="book-open"></i> Research Script</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-card animate-slide-up" style="animation-delay: 0.2s;">
+                        <div class="education-header">
+                            <div class="education-info">
+                                <h4 class="education-degree">Diploma in Information and Communication Technology </h4>
+                                <p class="education-institution">Walter Sisulu University</p>
+                                <div class="education-meta">
+                                    <i data-lucide="calendar"></i>
+                                    2021 - 2023
+                                </div>
+                            </div>
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+
+                        <div class="education-modules">
+                            <h5>Key Modules:</h5>
+                            <div class="modules-grid">
+                                <span><i data-lucide="book-open"></i> Development Software I</span>
+                                <span><i data-lucide="book-open"></i> Information system</span>
+                                <span><i data-lucide="book-open"></i> Data Communication and Netwoks</span>
+                                <span><i data-lucide="book-open"></i> IT Support and Governance</span>
+                                <span><i data-lucide="book-open"></i> Software Support</span>
+                                <span><i data-lucide="book-open"></i> Information security</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Certifications -->
+            <div class="education-subsection">
+                <h3 class="subsection-title">
+                    <i data-lucide="award"></i>
+                    Professional Certifications
+                </h3>
+
+                <div class="certifications-detailed">
+
+                    <div class="cert-card animate-scale-in">
+                        <div class="cert-header">
+                            <h4>Full Stack Development</h4>
+                            <span class="status-badge certified">Certified</span>
+                        </div>
+                        <p class="cert-issuer">IT Varsity & FNB</p>
+                        <p class="cert-description">Gained practical experience in building responsive web applications
+                            using HTML, CSS, JavaScript, Node.js, Python and database integration, with a strong focus
+                            on real-world, job-ready skills</p>
+                    </div>
+
+
+                    <div class="cert-card animate-scale-in">
+                        <div class="cert-header">
+                            <h4>Python for Data Science, AI & Development</h4>
+                            <span class="status-badge certified">Certified</span>
+                        </div>
+                        <p class="cert-issuer">IBM</p>
+                        <p class="cert-description">Hands-on experience with Python programming, data analysis using
+                            Pandas and NumPy, and data visualization with Matplotlib.</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-in">
+                        <div class="cert-header">
+                            <h4>Microsoft SC-300: Identity and Access Administrator Associate</h4>
+                            <span class="status-badge certified">Certified</span>
+                        </div>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-description">Demonstrating skills in managing identities, implementing
+                            authentication and access management, and securing Microsoft 365 and Azure environments</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-in" style="animation-delay: 0.1s;">
+                        <div class="cert-header">
+                            <h4>Microsoft SC-900: Security, Compliance, and Identity Fundamentals</h4>
+                            <span class="status-badge certified">Certified</span>
+                        </div>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-description">Foundational knowledge of security, compliance, identity, and access
+                            management across Microsoft services such as Azure and Microsoft 365.</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-in" style="animation-delay: 0.1s;">
+                        <div class="cert-header">
+                            <h4>Cybersecurity Fundamentals</h4>
+                            <span class="status-badge certified">Certified</span>
+                        </div>
+                        <p class="cert-issuer">IBM</p>
+                        <p class="cert-description">Gained foundational knowledge in network security, endpoint
+                            protection, incident response, cryptography, and governance, risk, and compliance (GRC)
+                            within modern cybersecurity environments.</p>
+                    </div>
+
+                    <div class="cert-card animate-scale-in" style="animation-delay: 0.1s;">
+                        <div class="cert-header">
+                            <h4>Fortinet Certified Fundamentals Cybersecurity</h4>
+                            <span class="status-badge certified">Certified</span>
+                        </div>
+                        <p class="cert-issuer">Fortinet</p>
+                        <p class="cert-description">Earned the Fortinet Certified Fundamentals in Cybersecurity (FCF)
+                            certification, demonstrating foundational knowledge of network security, cybersecurity
+                            threats, secure access, and Fortinet’s Security Fabric solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-description">
+                    Comprehensive expertise across software development, cybersecurity, and IT infrastructure
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card animate-scale-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <h3 class="skill-title">Programming Languages</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>68%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span>56%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IAM & Security -->
+                <div class="skill-card animate-scale-in" style="animation-delay: 0.1s;">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="shield"></i>
+                        </div>
+                        <h3 class="skill-title">IAM & Security</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Azure Active Directory</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Microsoft 365 Security</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Kaspersky EDR</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>IAM</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>GoldFish</span>
+                                <span>53%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 53%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Networking -->
+                <div class="skill-card animate-scale-in" style="animation-delay: 0.2s;">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="network"></i>
+                        </div>
+                        <h3 class="skill-title">Networking</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CCNA Fundamentals</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Network Troubleshooting</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PRTG</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Ruckus</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Fastvue</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>LAN/WAN, DNS, DHCP, VPN</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud & Infrastructure -->
+                <div class="skill-card animate-scale-in" style="animation-delay: 0.3s;">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="cloud"></i>
+                        </div>
+                        <h3 class="skill-title">Cloud & Infrastructure</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Microsoft Azure</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Google Workspace </span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>3CX Admin Console</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>VCX Communications Manager</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skill-card animate-scale-in" style="animation-delay: 0.5s;">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="monitor"></i>
+                        </div>
+                        <h3 class="skill-title">Tools & Technologies</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git/GitHub</span>
+                                <span>68%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>VS Code</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>ServiceDesk plus</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>AnyDesk & Team Viewer</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>ManageEngine</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-description">
+                    Demonstrating comprehensive expertise across software and web development.
+                </p>
+            </div>
+
+            <!-- Project Grid -->
+            <div class="project-grid">
+                <!-- Project Card 1 -->
+
+                <div class="project-card animate-slide-up">
+                    <img src="images/Portfolio1.jpg" alt="Project 1 Screenshot" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Portfolio</h3>
+                        <a href="https://github.com/Amahle20/Caculator" target="_blank" class="github-link">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-slide-up">
+                    <img src="images/Caculator.jpg" alt="Project 1 Screenshot" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Caculator</h3>
+                        <a href="https://github.com/Amahle20/Caculator" target="_blank" class="github-link">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- Project Card 2 -->
+                <div class="project-card animate-slide-up">
+                    <img src="images/Login.jpg" alt="Project 2 Screenshot" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Login Page</h3>
+                        <a href="https://github.com/Amahle20/Login-Page" target="_blank" class="github-link">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card animate-slide-up">
+                    <img src="images/RetroToons.jpg" alt="Project 3 Screenshot" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">RetroToons</h3>
+                        <a href="https://github.com/Amahle20/RetroToons" target="_blank" class="github-link">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card animate-slide-up">
+                    <img src="images/Pine City Zoo.jpg" alt="Project 4 Screenshot" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Pine City Zoo</h3>
+                        <a href="https://github.com/Amahle20/Pine-City-Zoo-" target="_blank" class="github-link">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header animate-fade-in">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-description">
+                    Ready to collaborate on exciting projects or discuss opportunities in software development and
+                    cybersecurity
+                </p>
+            </div>
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info animate-slide-up">
+                    <h3 class="contact-subtitle">Get In Touch</h3>
+
+                    <div class="contact-items">
+                        <a href="mailto:nonyusaamahle@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>nonyusaamahle@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <a href="tel:+27763335258" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+27 763 335 258</p>
+                            </div>
+                        </a>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>South Africa</p>
+                            </div>
+                        </div>
+
+                        <a href="https://github.com/Amahle20" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <p>github.com/Amahle20</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/amahle-nonyusa-030139263/" target="_blank"
+                            class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/Amahle-Nonyusa</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Amahle Nonyusa. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
