@@ -146,8 +146,8 @@ function animateProgressBars(skillCard) {
 
 function downloadCV() {
     const link = document.createElement('a');
-    link.href = 'Assets/Amahle-CV-1.pdf'; // Make sure this file is in the same folder or adjust path
-    link.download = 'Assets/Amahle-CV-1.pdf'; // Optional: rename file
+    link.href = 'Assets/Amahle CVV.pdf'; // Make sure this file is in the same folder or adjust path
+    link.download = 'Assets/Amahle CVV.pdf'; // Optional: rename file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
